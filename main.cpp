@@ -88,7 +88,6 @@ int main()
 
     //Declaración de apuntador constante que esta apuntando al primer atributo del primer elemento de un arreglo de estructuras Equipo
     Equipo * const equiposPtr = new Equipo[ cantidadEquipos ];
-    Jugador * jugadoresPtr = NULL;
 
     std::cout << std::endl;
     system("pause");
@@ -162,7 +161,7 @@ int main()
 void imprimirEnunciado()
 {
     std::cout << "-----------------------------------------------------------------------------------------------------------------------" << std::endl;
-    std::cout << std::setw (64) << "Taller 5 Punto 1" << std::endl;
+    std::cout << std::setw (64) << "Sistema de Gestión de Equipos" << std::endl;
     std::cout << "-----------------------------------------------------------------------------------------------------------------------" << std::endl << std::endl;
     std::cout << "Digite el numero de equipos: ";
 }
